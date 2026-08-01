@@ -6,7 +6,7 @@ Title: Emergent Specialization in Autonomous Multi-Agent Legal Discourse
 
 Author: Surya Saka
 Affiliation: JudicialMind, India
-Email: hello@judicialmind.ai
+Email: sakasurya0@gmail.com
 
 Files:
   main.tex         - LaTeX source (acmart sigconf, nonacm=true)
