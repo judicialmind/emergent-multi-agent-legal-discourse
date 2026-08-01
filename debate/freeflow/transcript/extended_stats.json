@@ -1,0 +1,61 @@
+{
+  "paragraph_stats": {
+    "Agent One": {
+      "avg": 2.0,
+      "min": 2,
+      "max": 2
+    },
+    "Agent Two": {
+      "avg": 2.75,
+      "min": 2,
+      "max": 3
+    },
+    "Agent Three": {
+      "avg": 3.0,
+      "min": 3,
+      "max": 3
+    },
+    "Agent Four": {
+      "avg": 2.5806451612903225,
+      "min": 2,
+      "max": 4
+    },
+    "Agent Five": {
+      "avg": 3.0,
+      "min": 3,
+      "max": 3
+    }
+  },
+  "question_stats": {
+    "Agent One": 3,
+    "Agent Two": 14,
+    "Agent Three": 5,
+    "Agent Four": 10,
+    "Agent Five": 15
+  },
+  "correction_stats": {
+    "Agent Three": {
+      "wrong": 9,
+      "concede": 4,
+      "moved": 9,
+      "changed": 2,
+      "update": 1,
+      "genuine update": 1,
+      "overclaim": 1,
+      "stress-test": 3
+    },
+    "Agent Two": {
+      "moved": 3,
+      "wrong": 5,
+      "stress-test": 10
+    },
+    "Agent Four": {
+      "update": 2,
+      "wrong": 3,
+      "concede": 1,
+      "moved": 4,
+      "stress-test": 1,
+      "changed": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Build artifacts
+*.aux
+*.log
+*.out
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+__pycache__/
+*.pyc
+.DS_Store
+/tmp/

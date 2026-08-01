@@ -1,0 +1,280 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{17}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Bai et~al\mbox{.}(2022)]%
+        {bai2022constitutional}
+\bibfield{author}{\bibinfo{person}{Yuntao Bai}, \bibinfo{person}{Saurav
+  Kadavath}, \bibinfo{person}{Sandipan Kundu}, \bibinfo{person}{Amanda Askell},
+  \bibinfo{person}{Jackson Kernion}, \bibinfo{person}{Andy Jones},
+  \bibinfo{person}{Anna Goldie}, \bibinfo{person}{Azalia Mirhoseini},
+  \bibinfo{person}{Cameron McKinnon}, \bibinfo{person}{Carol Chen},
+  {et~al\mbox{.}}} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Constitutional AI: Harmlessness from AI Feedback}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2212.08073}}
+  (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Brown et~al\mbox{.}(2020)]%
+        {brown2020gpt3}
+\bibfield{author}{\bibinfo{person}{Tom~B. Brown}, \bibinfo{person}{Benjamin
+  Mann}, \bibinfo{person}{Nick Ryder}, \bibinfo{person}{Melanie Subbiah},
+  \bibinfo{person}{Jared Kaplan}, \bibinfo{person}{Prafulla Dhariwal},
+  \bibinfo{person}{Arvind Neelakantan}, \bibinfo{person}{Pranav Shyam},
+  \bibinfo{person}{Girish Sastry}, \bibinfo{person}{Amanda Askell},
+  {et~al\mbox{.}}} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Language Models are Few-Shot Learners}.
+\newblock \bibinfo{journal}{\emph{Advances in Neural Information Processing
+  Systems}}  \bibinfo{volume}{33} (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Chan et~al\mbox{.}(2023)]%
+        {chan2023chateval}
+\bibfield{author}{\bibinfo{person}{Chi-Min Chan}, \bibinfo{person}{Weize Chen},
+  \bibinfo{person}{Yusheng Su}, \bibinfo{person}{Jianxuan Yu},
+  \bibinfo{person}{Wei Xue}, \bibinfo{person}{Shuyang Zhang},
+  \bibinfo{person}{Jihao Li}, \bibinfo{person}{Dong Zhou},
+  \bibinfo{person}{Yu-Yang Chuang}, \bibinfo{person}{Chen Qian},
+  \bibinfo{person}{Yujia Lu}, \bibinfo{person}{Yining Xie},
+  \bibinfo{person}{Zhiyuan Liu}, \bibinfo{person}{Maosong Sun}, {and}
+  \bibinfo{person}{Jie Zhou}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{ChatEval: Towards Better LLM-based Evaluators
+  through Multi-Agent Debate}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2308.07201}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Du et~al\mbox{.}(2023)]%
+        {du2023debate}
+\bibfield{author}{\bibinfo{person}{Yilun Du}, \bibinfo{person}{Shuang Li},
+  \bibinfo{person}{Antonio Torralba}, \bibinfo{person}{Joshua~B. Tenenbaum},
+  {and} \bibinfo{person}{Igor Mordatch}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Improving Factuality and Reasoning in Language
+  Models through Multiagent Debate}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2305.14325}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Gao et~al\mbox{.}(2024)]%
+        {agentscope}
+\bibfield{author}{\bibinfo{person}{Dawei Gao}, \bibinfo{person}{Zitao Li},
+  \bibinfo{person}{Xuchen Pan}, \bibinfo{person}{Weirui Kuang},
+  \bibinfo{person}{Zhijian Ma}, \bibinfo{person}{Bingchen Qian},
+  \bibinfo{person}{Fei Wei}, \bibinfo{person}{Wenhao Zhang},
+  \bibinfo{person}{Yuexiang Xie}, \bibinfo{person}{Daoyuan Chen},
+  \bibinfo{person}{Liuyi Yao}, \bibinfo{person}{Wenhao Han},
+  \bibinfo{person}{Hongzhi Jin}, \bibinfo{person}{Runtao Zhao},
+  \bibinfo{person}{Xinyu Shan}, \bibinfo{person}{Yifei Zhang},
+  \bibinfo{person}{Shuai Wang}, \bibinfo{person}{Bo Yu},
+  \bibinfo{person}{Mengyang Wang}, \bibinfo{person}{Yaliang Wu},
+  \bibinfo{person}{David Wipf}, \bibinfo{person}{Yaliang Chen},
+  \bibinfo{person}{Jinyang Zhao}, {and} \bibinfo{person}{Dongsheng Lian}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{AgentScope: A Flexible yet Robust Multi-Agent
+  Platform}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2402.14034}}
+  (\bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Huang et~al\mbox{.}(2023)]%
+        {huang2023chatdev}
+\bibfield{author}{\bibinfo{person}{Chen Huang}, \bibinfo{person}{Tian Zhang},
+  \bibinfo{person}{Shijie Liu}, \bibinfo{person}{Mingyang Sun},
+  \bibinfo{person}{Yuan Gui}, \bibinfo{person}{Yu Shi},
+  \bibinfo{person}{Weichen Han}, \bibinfo{person}{Hongyu Zhang}, {and}
+  \bibinfo{person}{Qingsong Yang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{ChatDev: Communicative Agents for Software
+  Development}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2307.07924}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[{Legal Services Corporation}(2022)]%
+        {lsc2022justicegap}
+\bibfield{author}{\bibinfo{person}{{Legal Services Corporation}}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{The Justice Gap: The Unmet Civil Legal Needs of
+  Low-Income Americans}.
+\newblock
+  \bibinfo{howpublished}{\url{https://justicegap.lsc.gov/resource/2022-justice-gap-report/}}.
+\newblock
+
+
+\bibitem[Liang et~al\mbox{.}(2023)]%
+        {liang2023encouraging}
+\bibfield{author}{\bibinfo{person}{Tian Liang}, \bibinfo{person}{Zhiwei He},
+  \bibinfo{person}{Wenxiang Jiao}, \bibinfo{person}{Xing Wang},
+  \bibinfo{person}{Yan Wang}, \bibinfo{person}{Rui Wang},
+  \bibinfo{person}{Yujiu Yang}, \bibinfo{person}{Shuming Xu}, {and}
+  \bibinfo{person}{Zhaopeng Tu}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Encouraging Divergent Thinking in Large Language
+  Models through Multi-Agent Debate}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2305.19118}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[{National Coalition for a Civil Right to Counsel}(2020)]%
+        {nccrc_eviction}
+\bibfield{author}{\bibinfo{person}{{National Coalition for a Civil Right to
+  Counsel}}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Landlord and Tenant Eviction Representation
+  Statistics}.
+\newblock
+  \bibinfo{howpublished}{\url{https://civilrighttocounsel.org/uploaded_files/280/Landlord_and_tenant_eviction_rep_stats__NCCRC_.pdf}}.
+\newblock
+
+
+\bibitem[Park et~al\mbox{.}(2023)]%
+        {park2023generative}
+\bibfield{author}{\bibinfo{person}{Joon~Sung Park}, \bibinfo{person}{Joseph~C.
+  O'Brien}, \bibinfo{person}{Carrie~J. Cai}, \bibinfo{person}{Meredith~Ringel
+  Morris}, \bibinfo{person}{Percy Liang}, {and} \bibinfo{person}{Michael~S.
+  Bernstein}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Generative Agents: Interactive Simulacra of Human
+  Behavior}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2304.03442}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Shinn et~al\mbox{.}(2023)]%
+        {shinn2023reflexion}
+\bibfield{author}{\bibinfo{person}{Noah Shinn}, \bibinfo{person}{Federico
+  Cassano}, \bibinfo{person}{Ashwin Gopinath}, \bibinfo{person}{Karthik
+  Narasimhan}, {and} \bibinfo{person}{Shunyu Yao}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Reflexion: Language Agents with Verbal
+  Reinforcement Learning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2303.11366}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[{The Pew Charitable Trusts}(2020)]%
+        {pew2020debt}
+\bibfield{author}{\bibinfo{person}{{The Pew Charitable Trusts}}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{How Debt Collectors Are Transforming the Business of
+  State Courts}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.pew.org/en/research-and-analysis/reports/2020/05/how-debt-collectors-are-transforming-the-business-of-state-courts}}.
+\newblock
+
+
+\bibitem[Touvron et~al\mbox{.}(2023)]%
+        {touvron2023llama}
+\bibfield{author}{\bibinfo{person}{Hugo Touvron}, \bibinfo{person}{Thibaut
+  Lavril}, \bibinfo{person}{Gautier Izacard}, \bibinfo{person}{Xavier
+  Martinet}, \bibinfo{person}{Marie-Anne Lachaux},
+  \bibinfo{person}{Timoth{\'e}e Lacroix}, \bibinfo{person}{Baptiste
+  Rozi{\`e}re}, \bibinfo{person}{Naman Goyal}, \bibinfo{person}{Eric Hambro},
+  \bibinfo{person}{Faisal Azhar}, {et~al\mbox{.}}}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{LLaMA: Open and Efficient Foundation Language
+  Models}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2302.13971}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Wei et~al\mbox{.}(2022a)]%
+        {wei2022emergent}
+\bibfield{author}{\bibinfo{person}{Jason Wei}, \bibinfo{person}{Yi Tay},
+  \bibinfo{person}{Rishi Bommasani}, \bibinfo{person}{Colin Raffel},
+  \bibinfo{person}{Barret Zoph}, \bibinfo{person}{Sebastian Borgeaud},
+  \bibinfo{person}{Dani Yogatama}, \bibinfo{person}{Maarten Bosma},
+  \bibinfo{person}{Denny Zhou}, \bibinfo{person}{Donald Metzler},
+  \bibinfo{person}{Ed Chi}, \bibinfo{person}{Tatsunori Hashimoto},
+  \bibinfo{person}{Oriol Vinyals}, \bibinfo{person}{Percy Liang},
+  \bibinfo{person}{Jeff Dean}, {and} \bibinfo{person}{William Fedus}.}
+  \bibinfo{year}{2022}\natexlab{a}.
+\newblock \showarticletitle{Emergent Abilities of Large Language Models}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2206.07682}}
+  (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Wei et~al\mbox{.}(2022b)]%
+        {wei2022cot}
+\bibfield{author}{\bibinfo{person}{Jason Wei}, \bibinfo{person}{Xuezhi Wang},
+  \bibinfo{person}{Dale Schuurmans}, \bibinfo{person}{Maarten Bosma},
+  \bibinfo{person}{Brian Ichter}, \bibinfo{person}{Fei Xia},
+  \bibinfo{person}{Ed Chi}, \bibinfo{person}{Quoc Le}, {and}
+  \bibinfo{person}{Denny Zhou}.} \bibinfo{year}{2022}\natexlab{b}.
+\newblock \showarticletitle{Chain-of-Thought Prompting Elicits Reasoning in
+  Large Language Models}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2201.11903}}
+  (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Wu et~al\mbox{.}(2023)]%
+        {wu2023autogen}
+\bibfield{author}{\bibinfo{person}{Qingyun Wu}, \bibinfo{person}{Gagan Bansal},
+  \bibinfo{person}{Jieyu Zhang}, \bibinfo{person}{Yiran Wu},
+  \bibinfo{person}{Beibin Li}, \bibinfo{person}{Erkang Zhu},
+  \bibinfo{person}{Li Jiang}, \bibinfo{person}{Xiaoyun Zhang},
+  \bibinfo{person}{Shaokun Zhang}, \bibinfo{person}{Jiale Liu},
+  {et~al\mbox{.}}} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{AutoGen: Enabling Next-Gen LLM Applications via
+  Multi-Agent Conversation}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2308.08155}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Yao et~al\mbox{.}(2023)]%
+        {yao2023react}
+\bibfield{author}{\bibinfo{person}{Shunyu Yao}, \bibinfo{person}{Jeffrey Zhao},
+  \bibinfo{person}{Dian Yu}, \bibinfo{person}{Nan Du}, \bibinfo{person}{Izhak
+  Shafran}, \bibinfo{person}{Karthik Narasimhan}, {and} \bibinfo{person}{Yuan
+  Cao}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{ReAct: Synergizing Reasoning and Acting in Language
+  Models}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2210.03629}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\end{thebibliography}

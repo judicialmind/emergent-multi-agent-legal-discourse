@@ -1,0 +1,145 @@
+{
+  "total_turns": 150,
+  "total_words": 49401,
+  "avg_words_per_turn": 329.34,
+  "turn_distribution": {
+    "Agent One": 31,
+    "Agent Two": 28,
+    "Agent Three": 33,
+    "Agent Four": 31,
+    "Agent Five": 27
+  },
+  "per_agent_stats": {
+    "Agent Five": {
+      "model": "Gemini 3.1 Pro (gemini_3_1_pro)",
+      "turns": 27,
+      "total_words": 6879,
+      "avg_words": 254.77777777777777,
+      "min_words": 224,
+      "max_words": 306,
+      "avg_chars": 1652.8148148148148,
+      "std_dev_words": 21.477521985026204
+    },
+    "Agent Four": {
+      "model": "GLM 5.2 (glm_5_2)",
+      "turns": 31,
+      "total_words": 12575,
+      "avg_words": 405.64516129032256,
+      "min_words": 285,
+      "max_words": 577,
+      "avg_chars": 2502.8387096774195,
+      "std_dev_words": 66.32157649547358
+    },
+    "Agent One": {
+      "model": "GPT 5.6 (gpt_5_6_sol)",
+      "turns": 31,
+      "total_words": 3170,
+      "avg_words": 102.25806451612904,
+      "min_words": 84,
+      "max_words": 129,
+      "avg_chars": 741.8709677419355,
+      "std_dev_words": 11.73351346312715
+    },
+    "Agent Three": {
+      "model": "Claude Opus 5 (claude_opus_5_0)",
+      "turns": 33,
+      "total_words": 15701,
+      "avg_words": 475.7878787878788,
+      "min_words": 387,
+      "max_words": 565,
+      "avg_chars": 2884.4545454545455,
+      "std_dev_words": 49.35263191886164
+    },
+    "Agent Two": {
+      "model": "Claude Fable 5 (claude_fable_5)",
+      "turns": 28,
+      "total_words": 11076,
+      "avg_words": 395.57142857142856,
+      "min_words": 291,
+      "max_words": 472,
+      "avg_chars": 2488.214285714286,
+      "std_dev_words": 39.7469033577537
+    }
+  },
+  "consecutive_pairs": {
+    "Agent Three -> Agent Four": 16,
+    "Agent Four -> Agent Five": 14,
+    "Agent Three -> Agent Three": 14,
+    "Agent Two -> Agent One": 13,
+    "Agent One -> Agent Three": 13,
+    "Agent Four -> Agent Four": 13,
+    "Agent One -> Agent One": 12,
+    "Agent Five -> Agent Five": 12,
+    "Agent Five -> Agent Two": 12,
+    "Agent Two -> Agent Two": 12,
+    "Agent One -> Agent Two": 3,
+    "Agent Four -> Agent Three": 3,
+    "Agent Two -> Agent Three": 2,
+    "Agent Three -> Agent One": 2,
+    "Agent One -> Agent Four": 2,
+    "Agent Five -> Agent One": 2,
+    "Agent Four -> Agent One": 1,
+    "Agent One -> Agent Five": 1,
+    "Agent Five -> Agent Three": 1,
+    "Agent Three -> Agent Two": 1
+  },
+  "self_consecutive_count": 63,
+  "self_consecutive_pct": 42.281879194630875,
+  "cross_agent_mentions": {
+    "Agent Three": {
+      "Agent One": 2,
+      "Agent Four": 8,
+      "Agent Five": 10,
+      "Agent Two": 39
+    },
+    "Agent Four": {
+      "Agent One": 9,
+      "Agent Three": 24,
+      "Agent Two": 47,
+      "Agent Five": 3
+    },
+    "Agent Five": {
+      "Agent One": 4,
+      "Agent Four": 7,
+      "Agent Three": 3,
+      "Agent Two": 32
+    },
+    "Agent Two": {
+      "Agent One": 9,
+      "Agent Four": 14,
+      "Agent Three": 22,
+      "Agent Five": 7
+    }
+  },
+  "key_term_frequency": {
+    "fiduciary": 115,
+    "trust": 383,
+    "audit": 225,
+    "displacement": 18,
+    "loyalty": 42,
+    "501(r)": 99,
+    "CRA": 195,
+    "default": 55,
+    "eviction": 64,
+    "debt": 48,
+    "court": 136,
+    "regulator": 169,
+    "pilot": 21,
+    "compression": 0,
+    "justice": 146,
+    "actuarial": 36,
+    "precedent": 14,
+    "capture": 87,
+    "fiduciary duty": 10,
+    "matched-pair": 32,
+    "referral": 10,
+    "loyalty rule": 23,
+    "sandbox": 10,
+    "Utah": 4,
+    "balance sheet": 32,
+    "cost-avoidance": 22,
+    "consumer": 10,
+    "defendant": 4
+  },
+  "conversation_duration_hours": 0
+}
