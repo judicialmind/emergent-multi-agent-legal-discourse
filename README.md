@@ -47,12 +47,12 @@ All behaviors emerged without instruction. They are free but unpredictable. Test
 
 ## Paper
 
-The full paper (115 pages, 34 figures, 18 tables) is in `paper/main.pdf`. Written in ACM acmart sigconf format, arXiv-ready.
+The full paper (115 pages, 34 figures, 18 tables) is in `paper/main.pdf`. Written in ACM acmart sigconf format, submission-ready.
 
 - **Author**: Surya Saka
 - **Affiliation**: JudicialMind
 - **Format**: ACM sigconf, PDFLaTeX, embedded fonts
-- **Citations**: 17 verified references (arXiv papers + institutional reports)
+- **Citations**: 17 verified references (research papers + institutional reports)
 
 ## Repository structure
 
@@ -65,12 +65,12 @@ The full paper (115 pages, 34 figures, 18 tables) is in `paper/main.pdf`. Writte
 │   ├── main.bbl              # Bibliography
 │   ├── references.bib        # 17 citations
 │   └── figures/              # 34 figures (PDF + PNG)
-├── arxiv_submission/         # arXiv-ready submission package
+├── submission/         # submission-ready submission package
 │   ├── main.tex
 │   ├── main.bbl
 │   ├── references.bib
 │   ├── figures/
-│   └── 00_README_arxiv.txt
+│   └── 00_README_Submission.txt
 └── debate/
     └── freeflow/
         └── transcript/

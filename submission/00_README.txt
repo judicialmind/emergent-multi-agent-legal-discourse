@@ -1,4 +1,4 @@
-arXiv Submission Package
+Submission Package
 =========================
 
 Title: Emergent Specialization in Autonomous Multi-Agent Legal Discourse
